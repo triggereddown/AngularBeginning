@@ -1,0 +1,7 @@
+.btn-group {
+  display: flex;
+  justify-content: center;
+
+  left: 50%;
+  width: 20px;
+}

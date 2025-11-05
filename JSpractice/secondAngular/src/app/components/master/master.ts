@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
+import { Roles } from '../roles/roles';
+import { Designation } from '../designation/designation';
 
 @Component({
   selector: 'app-master',
-  imports: [],
+  imports: [Roles, Designation],
   templateUrl: './master.html',
-  styleUrl: './master.css',
+  styleUrls: ['./master.css'],
 })
 export class Master {
-
+  currentComponent: string = '';
 }
